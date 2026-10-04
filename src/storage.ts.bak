@@ -1,0 +1,109 @@
+import type { AnswerRecord, CategoryId, MistakeRecord, Settings, StoredProgress } from "./types";
+
+const progressKey = "fr_a2_progress";
+const mistakesKey = "fr_a2_mistakes";
+const settingsKey = "fr_a2_settings";
+const rewardsKey = "fr_a2_easter_eggs_seen";
+
+const categories: CategoryId[] = ["definis", "indefinis", "partitifs", "possessifs", "demonstratifs"];
+
+export function emptyProgress(): StoredProgress {
+  return {
+    categories: Object.fromEntries(categories.map((category) => [category, { attempts: 0, correct: 0 }])) as StoredProgress["categories"],
+    completedChapters: [],
+    completedTests: 0,
+  };
+}
+
+export function loadProgress(): StoredProgress {
+  return readJson(progressKey, emptyProgress());
+}
+
+export function saveProgress(progress: StoredProgress): void {
+  localStorage.setItem(progressKey, JSON.stringify(progress));
+}
+
+export function updateProgress(records: AnswerRecord[], chapterId?: string): StoredProgress {
+  const progress = loadProgress();
+  records.forEach((record) => {
+    const stats = progress.categories[record.question.category];
+    stats.attempts += 1;
+    if (record.isCorrect) stats.correct += 1;
+  });
+  if (chapterId && !progress.completedChapters.includes(chapterId)) {
+    progress.completedChapters.push(chapterId);
+  }
+  if (!chapterId) {
+    progress.completedTests += 1;
+  }
+  saveProgress(progress);
+  return progress;
+}
+
+export function loadMistakes(): MistakeRecord[] {
+  return readJson(mistakesKey, []);
+}
+
+export function recordMistakes(records: AnswerRecord[]): MistakeRecord[] {
+  const mistakes = loadMistakes();
+  records
+    .filter((record) => !record.isCorrect)
+    .forEach((record) => {
+      const existing = mistakes.find((mistake) => mistake.questionId === record.question.id);
+      if (existing) {
+        existing.selectedAnswer = record.selectedAnswer;
+        existing.count += 1;
+        existing.lastSeen = new Date().toISOString();
+      } else {
+        mistakes.unshift({
+          id: crypto.randomUUID(),
+          questionId: record.question.id,
+          sentence: record.question.sentence,
+          category: record.question.category,
+          selectedAnswer: record.selectedAnswer,
+          correctAnswer: record.question.correct_answer,
+          explanationFr: record.question.explanation_fr,
+          explanationEn: record.question.explanation_en,
+          commonMistakeFr: record.question.common_mistake_fr,
+          extraExampleFr: record.question.extra_example_fr,
+          count: 1,
+          lastSeen: new Date().toISOString(),
+        });
+      }
+    });
+  localStorage.setItem(mistakesKey, JSON.stringify(mistakes));
+  return mistakes;
+}
+
+export function clearMistakes(): void {
+  localStorage.removeItem(mistakesKey);
+}
+
+export function loadSettings(): Settings {
+  return readJson(settingsKey, { soundEnabled: false, showEnglishAfterClickOnly: true });
+}
+
+export function saveSettings(settings: Settings): void {
+  localStorage.setItem(settingsKey, JSON.stringify(settings));
+}
+
+export function loadSeenRewards(): string[] {
+  return readJson(rewardsKey, []);
+}
+
+export function saveSeenRewards(events: string[]): void {
+  localStorage.setItem(rewardsKey, JSON.stringify(events));
+}
+
+export function resetAllData(): void {
+  [progressKey, mistakesKey, settingsKey, rewardsKey].forEach((key) => localStorage.removeItem(key));
+}
+
+function readJson<T>(key: string, fallback: T): T {
+  try {
+    const raw = localStorage.getItem(key);
+    return raw ? ({ ...fallback, ...JSON.parse(raw) } as T) : fallback;
+  } catch {
+    return fallback;
+  }
+}

@@ -1,0 +1,2852 @@
+[
+  {
+    "id": "definis-001",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "cuisine",
+    "sentence": "Je range ___ assiettes dans l’armoire.",
+    "choices": [
+      "le",
+      "la",
+      "l’",
+      "les"
+    ],
+    "correct_answer": "les",
+    "explanation_fr": "On utilise « les » avec un nom pluriel précis.",
+    "explanation_en": "Use “les” with a specific plural noun.",
+    "common_mistake_fr": "« la » serait singulier féminin.",
+    "extra_example_fr": "Je lave les verres.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-002",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "maison",
+    "sentence": "Ferme ___ porte, s’il te plaît.",
+    "choices": [
+      "le",
+      "la",
+      "l’",
+      "les"
+    ],
+    "correct_answer": "la",
+    "explanation_fr": "On utilise « la » avec un nom féminin singulier précis.",
+    "explanation_en": "Use “la” with a specific feminine singular noun.",
+    "common_mistake_fr": "« le » serait masculin singulier.",
+    "extra_example_fr": "J’ouvre la fenêtre.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-003",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "transport",
+    "sentence": "J’attends ___ autobus devant l’école.",
+    "choices": [
+      "le",
+      "la",
+      "l’",
+      "les"
+    ],
+    "correct_answer": "l’",
+    "explanation_fr": "On utilise « l’ » devant un nom singulier qui commence par une voyelle.",
+    "explanation_en": "Use “l’” before a singular noun starting with a vowel.",
+    "common_mistake_fr": "« le » devient « l’ » devant une voyelle.",
+    "extra_example_fr": "Je prends l’avion demain.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-004",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "travail",
+    "sentence": "___ bureau de mon collègue est propre.",
+    "choices": [
+      "Le",
+      "La",
+      "L’",
+      "Les"
+    ],
+    "correct_answer": "Le",
+    "explanation_fr": "On utilise « le » avec un nom masculin singulier précis.",
+    "explanation_en": "Use “le” with a specific masculine singular noun.",
+    "common_mistake_fr": "« la » serait féminin singulier.",
+    "extra_example_fr": "Le téléphone sonne.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-005",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "famille",
+    "sentence": "___ enfants jouent dans le parc.",
+    "choices": [
+      "Le",
+      "La",
+      "L’",
+      "Les"
+    ],
+    "correct_answer": "Les",
+    "explanation_fr": "On utilise « les » avec un nom pluriel précis.",
+    "explanation_en": "Use “les” with a specific plural noun.",
+    "common_mistake_fr": "« l’ » est singulier devant voyelle.",
+    "extra_example_fr": "Les voisins sont gentils.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-006",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "épicerie",
+    "sentence": "Je prends ___ lait dans le frigo.",
+    "choices": [
+      "le",
+      "la",
+      "l’",
+      "les"
+    ],
+    "correct_answer": "le",
+    "explanation_fr": "« Lait » est masculin singulier, donc on utilise « le » quand il est précis.",
+    "explanation_en": "“Lait” is masculine singular, so use “le” when it is specific.",
+    "common_mistake_fr": "« la » ne convient pas parce que « lait » est masculin.",
+    "extra_example_fr": "Le pain est sur la table.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-007",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "vêtements",
+    "sentence": "Où sont ___ chaussures noires?",
+    "choices": [
+      "le",
+      "la",
+      "l’",
+      "les"
+    ],
+    "correct_answer": "les",
+    "explanation_fr": "« Chaussures » est pluriel, donc on utilise « les ».",
+    "explanation_en": "“Chaussures” is plural, so use “les”.",
+    "common_mistake_fr": "« la » serait singulier.",
+    "extra_example_fr": "Les bottes sont près de la porte.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-008",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "santé",
+    "sentence": "J’ai rendez-vous avec ___ médecin.",
+    "choices": [
+      "le",
+      "la",
+      "l’",
+      "les"
+    ],
+    "correct_answer": "le",
+    "explanation_fr": "On utilise « le » avec « médecin » quand on parle d’un médecin précis.",
+    "explanation_en": "Use “le” when talking about a specific doctor.",
+    "common_mistake_fr": "« un » serait non précis, mais ici on choisit un article défini.",
+    "extra_example_fr": "Je vois le dentiste.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-009",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "école",
+    "sentence": "___ examen commence à neuf heures.",
+    "choices": [
+      "Le",
+      "La",
+      "L’",
+      "Les"
+    ],
+    "correct_answer": "L’",
+    "explanation_fr": "« Examen » commence par une voyelle, donc « le » devient « l’ ».",
+    "explanation_en": "“Examen” begins with a vowel, so “le” becomes “l’”.",
+    "common_mistake_fr": "« le examen » est incorrect.",
+    "extra_example_fr": "L’exercice est facile.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-010",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "quartier",
+    "sentence": "Je connais ___ rue Saint-Denis.",
+    "choices": [
+      "le",
+      "la",
+      "l’",
+      "les"
+    ],
+    "correct_answer": "la",
+    "explanation_fr": "« Rue » est féminin singulier, donc on utilise « la ».",
+    "explanation_en": "“Rue” is feminine singular, so use “la”.",
+    "common_mistake_fr": "« le » serait masculin.",
+    "extra_example_fr": "La station est proche.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-011",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "restaurant",
+    "sentence": "___ menu est sur la table.",
+    "choices": [
+      "Le",
+      "La",
+      "L’",
+      "Les"
+    ],
+    "correct_answer": "Le",
+    "explanation_fr": "« Menu » est masculin singulier, donc on utilise « le ».",
+    "explanation_en": "“Menu” is masculine singular, so use “le”.",
+    "common_mistake_fr": "« la » ne convient pas avec « menu ».",
+    "extra_example_fr": "Le serveur arrive.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-012",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "loisirs",
+    "sentence": "J’écoute ___ radio le matin.",
+    "choices": [
+      "le",
+      "la",
+      "l’",
+      "les"
+    ],
+    "correct_answer": "la",
+    "explanation_fr": "« Radio » est féminin singulier, donc on utilise « la ».",
+    "explanation_en": "“Radio” is feminine singular, so use “la”.",
+    "common_mistake_fr": "« le » serait masculin.",
+    "extra_example_fr": "La musique est belle.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-013",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "météo",
+    "sentence": "___ hiver est long au Québec.",
+    "choices": [
+      "Le",
+      "La",
+      "L’",
+      "Les"
+    ],
+    "correct_answer": "L’",
+    "explanation_fr": "« Hiver » commence par un h muet, donc on utilise « l’ ».",
+    "explanation_en": "“Hiver” starts with a silent h, so use “l’”.",
+    "common_mistake_fr": "« le hiver » ne se dit pas.",
+    "extra_example_fr": "L’automne est beau.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-014",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "appartement",
+    "sentence": "Je nettoie ___ salon.",
+    "choices": [
+      "le",
+      "la",
+      "l’",
+      "les"
+    ],
+    "correct_answer": "le",
+    "explanation_fr": "« Salon » est masculin singulier, donc on utilise « le ».",
+    "explanation_en": "“Salon” is masculine singular, so use “le”.",
+    "common_mistake_fr": "« la » serait féminin.",
+    "extra_example_fr": "Le balcon est petit.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-015",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "famille",
+    "sentence": "___ mère de Julie travaille aujourd’hui.",
+    "choices": [
+      "Le",
+      "La",
+      "L’",
+      "Les"
+    ],
+    "correct_answer": "La",
+    "explanation_fr": "« Mère » est féminin singulier, donc on utilise « la ».",
+    "explanation_en": "“Mère” is feminine singular, so use “la”.",
+    "common_mistake_fr": "« le » serait masculin.",
+    "extra_example_fr": "La sœur de Marc arrive.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-016",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "ville",
+    "sentence": "Je visite ___ musée demain.",
+    "choices": [
+      "le",
+      "la",
+      "l’",
+      "les"
+    ],
+    "correct_answer": "le",
+    "explanation_fr": "« Musée » est masculin singulier, donc on utilise « le ».",
+    "explanation_en": "“Musée” is masculine singular, so use “le”.",
+    "common_mistake_fr": "« la » ne convient pas avec « musée ».",
+    "extra_example_fr": "Le marché est ouvert.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-017",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "animaux",
+    "sentence": "___ chien de mon voisin aboie.",
+    "choices": [
+      "Le",
+      "La",
+      "L’",
+      "Les"
+    ],
+    "correct_answer": "Le",
+    "explanation_fr": "« Chien » est masculin singulier, donc on utilise « le ».",
+    "explanation_en": "“Chien” is masculine singular, so use “le”.",
+    "common_mistake_fr": "« la » serait féminin.",
+    "extra_example_fr": "Le chat dort.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-018",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "magasin",
+    "sentence": "Je paie ___ facture.",
+    "choices": [
+      "le",
+      "la",
+      "l’",
+      "les"
+    ],
+    "correct_answer": "la",
+    "explanation_fr": "« Facture » est féminin singulier, donc on utilise « la ».",
+    "explanation_en": "“Facture” is feminine singular, so use “la”.",
+    "common_mistake_fr": "« le » serait masculin.",
+    "extra_example_fr": "La carte est valide.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-019",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "temps",
+    "sentence": "___ journée est très chargée.",
+    "choices": [
+      "Le",
+      "La",
+      "L’",
+      "Les"
+    ],
+    "correct_answer": "La",
+    "explanation_fr": "« Journée » est féminin singulier, donc on utilise « la ».",
+    "explanation_en": "“Journée” is feminine singular, so use “la”.",
+    "common_mistake_fr": "« le » serait masculin.",
+    "extra_example_fr": "La semaine passe vite.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-020",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "travail",
+    "sentence": "Je lis ___ courriels du matin.",
+    "choices": [
+      "le",
+      "la",
+      "l’",
+      "les"
+    ],
+    "correct_answer": "les",
+    "explanation_fr": "« Courriels » est pluriel, donc on utilise « les ».",
+    "explanation_en": "“Courriels” is plural, so use “les”.",
+    "common_mistake_fr": "« le » serait singulier.",
+    "extra_example_fr": "Les messages sont importants.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-021",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "santé",
+    "sentence": "___ infirmière explique le traitement.",
+    "choices": [
+      "Le",
+      "La",
+      "L’",
+      "Les"
+    ],
+    "correct_answer": "L’",
+    "explanation_fr": "« Infirmière » commence par une voyelle, donc on utilise « l’ ».",
+    "explanation_en": "“Infirmière” begins with a vowel, so use “l’”.",
+    "common_mistake_fr": "« la infirmière » est incorrect.",
+    "extra_example_fr": "L’amie de Paul arrive.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-022",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "café",
+    "sentence": "Je prends ___ café sur le comptoir.",
+    "choices": [
+      "le",
+      "la",
+      "l’",
+      "les"
+    ],
+    "correct_answer": "le",
+    "explanation_fr": "Ici, le café est précis: celui sur le comptoir. On utilise « le ».",
+    "explanation_en": "Here the coffee is specific: the one on the counter. Use “le”.",
+    "common_mistake_fr": "« du » indiquerait une quantité non précise.",
+    "extra_example_fr": "Le jus est froid.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-023",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "école",
+    "sentence": "___ professeure donne un devoir.",
+    "choices": [
+      "Le",
+      "La",
+      "L’",
+      "Les"
+    ],
+    "correct_answer": "La",
+    "explanation_fr": "« Professeure » est féminin singulier, donc on utilise « la ».",
+    "explanation_en": "“Professeure” is feminine singular, so use “la”.",
+    "common_mistake_fr": "« le » serait masculin.",
+    "extra_example_fr": "La classe commence.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-024",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "transport",
+    "sentence": "Je cherche ___ station de métro.",
+    "choices": [
+      "le",
+      "la",
+      "l’",
+      "les"
+    ],
+    "correct_answer": "la",
+    "explanation_fr": "« Station » est féminin singulier, donc on utilise « la ».",
+    "explanation_en": "“Station” is feminine singular, so use “la”.",
+    "common_mistake_fr": "« le » serait masculin.",
+    "extra_example_fr": "La voiture est rouge.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-025",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "loisirs",
+    "sentence": "___ amis arrivent à dix-huit heures.",
+    "choices": [
+      "Le",
+      "La",
+      "L’",
+      "Les"
+    ],
+    "correct_answer": "Les",
+    "explanation_fr": "« Amis » est pluriel, donc on utilise « les ».",
+    "explanation_en": "“Amis” is plural, so use “les”.",
+    "common_mistake_fr": "« l’ » est singulier.",
+    "extra_example_fr": "Les collègues mangent ensemble.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-026",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "administration",
+    "sentence": "Je signe ___ document.",
+    "choices": [
+      "le",
+      "la",
+      "l’",
+      "les"
+    ],
+    "correct_answer": "le",
+    "explanation_fr": "« Document » est masculin singulier, donc on utilise « le ».",
+    "explanation_en": "“Document” is masculine singular, so use “le”.",
+    "common_mistake_fr": "« la » serait féminin.",
+    "extra_example_fr": "Le formulaire est long.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-027",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "épicerie",
+    "sentence": "___ orange est dans le sac.",
+    "choices": [
+      "Le",
+      "La",
+      "L’",
+      "Les"
+    ],
+    "correct_answer": "L’",
+    "explanation_fr": "« Orange » commence par une voyelle, donc on utilise « l’ ».",
+    "explanation_en": "“Orange” begins with a vowel, so use “l’”.",
+    "common_mistake_fr": "« la orange » est incorrect.",
+    "extra_example_fr": "L’eau est froide.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-028",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "vêtements",
+    "sentence": "Je mets ___ manteau parce qu’il fait froid.",
+    "choices": [
+      "le",
+      "la",
+      "l’",
+      "les"
+    ],
+    "correct_answer": "le",
+    "explanation_fr": "« Manteau » est masculin singulier, donc on utilise « le ».",
+    "explanation_en": "“Manteau” is masculine singular, so use “le”.",
+    "common_mistake_fr": "« la » serait féminin.",
+    "extra_example_fr": "Le chandail est chaud.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-029",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "maison",
+    "sentence": "___ clés sont sur la table.",
+    "choices": [
+      "Le",
+      "La",
+      "L’",
+      "Les"
+    ],
+    "correct_answer": "Les",
+    "explanation_fr": "« Clés » est pluriel, donc on utilise « les ».",
+    "explanation_en": "“Clés” is plural, so use “les”.",
+    "common_mistake_fr": "« la » serait singulier.",
+    "extra_example_fr": "Les lunettes sont ici.",
+    "difficulty": 1
+  },
+  {
+    "id": "definis-030",
+    "category": "definis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "rendez-vous",
+    "sentence": "J’appelle ___ clinique.",
+    "choices": [
+      "le",
+      "la",
+      "l’",
+      "les"
+    ],
+    "correct_answer": "la",
+    "explanation_fr": "« Clinique » est féminin singulier, donc on utilise « la ».",
+    "explanation_en": "“Clinique” is feminine singular, so use “la”.",
+    "common_mistake_fr": "« le » serait masculin.",
+    "extra_example_fr": "La pharmacie ferme tard.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-001",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "présentation",
+    "sentence": "J’ai ___ frère et deux sœurs.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "un",
+    "explanation_fr": "On utilise « un » avec un nom masculin singulier non précis.",
+    "explanation_en": "Use “un” with a non-specific masculine singular noun.",
+    "common_mistake_fr": "« une » serait féminin.",
+    "extra_example_fr": "J’ai un ami à Québec.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-002",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "école",
+    "sentence": "Elle achète ___ cahier pour son cours.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "un",
+    "explanation_fr": "« Cahier » est masculin singulier, donc on utilise « un ».",
+    "explanation_en": "“Cahier” is masculine singular, so use “un”.",
+    "common_mistake_fr": "« une » serait féminin.",
+    "extra_example_fr": "Il apporte un crayon.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-003",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "maison",
+    "sentence": "Il y a ___ chaise près de la fenêtre.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "une",
+    "explanation_fr": "« Chaise » est féminin singulier, donc on utilise « une ».",
+    "explanation_en": "“Chaise” is feminine singular, so use “une”.",
+    "common_mistake_fr": "« un » serait masculin.",
+    "extra_example_fr": "Voici une table.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-004",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "épicerie",
+    "sentence": "Je veux acheter ___ pommes.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "des",
+    "explanation_fr": "« Pommes » est pluriel, donc on utilise « des ».",
+    "explanation_en": "“Pommes” is plural, so use “des”.",
+    "common_mistake_fr": "« une » serait singulier.",
+    "extra_example_fr": "J’achète des bananes.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-005",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "travail",
+    "sentence": "Mon collègue a ___ question.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "une",
+    "explanation_fr": "« Question » est féminin singulier, donc on utilise « une ».",
+    "explanation_en": "“Question” is feminine singular, so use “une”.",
+    "common_mistake_fr": "« un » serait masculin.",
+    "extra_example_fr": "J’ai une réponse.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-006",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "restaurant",
+    "sentence": "Nous cherchons ___ table pour deux personnes.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "une",
+    "explanation_fr": "« Table » est féminin singulier, donc on utilise « une ».",
+    "explanation_en": "“Table” is feminine singular, so use “une”.",
+    "common_mistake_fr": "« un » serait masculin.",
+    "extra_example_fr": "Une réservation est nécessaire.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-007",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "transport",
+    "sentence": "Je prends ___ taxi ce soir.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "un",
+    "explanation_fr": "« Taxi » est masculin singulier, donc on utilise « un ».",
+    "explanation_en": "“Taxi” is masculine singular, so use “un”.",
+    "common_mistake_fr": "« une » serait féminin.",
+    "extra_example_fr": "Un autobus arrive.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-008",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "santé",
+    "sentence": "Elle cherche ___ pharmacie ouverte.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "une",
+    "explanation_fr": "« Pharmacie » est féminin singulier, donc on utilise « une ».",
+    "explanation_en": "“Pharmacie” is feminine singular, so use “une”.",
+    "common_mistake_fr": "« un » serait masculin.",
+    "extra_example_fr": "Une clinique est proche.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-009",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "quartier",
+    "sentence": "Il y a ___ restaurants sur cette rue.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "des",
+    "explanation_fr": "« Restaurants » est pluriel, donc on utilise « des ».",
+    "explanation_en": "“Restaurants” is plural, so use “des”.",
+    "common_mistake_fr": "« un » serait singulier.",
+    "extra_example_fr": "Il y a des magasins.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-010",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "famille",
+    "sentence": "C’est ___ cousin de Montréal.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "un",
+    "explanation_fr": "« Cousin » est masculin singulier, donc on utilise « un ».",
+    "explanation_en": "“Cousin” is masculine singular, so use “un”.",
+    "common_mistake_fr": "« une » serait féminin.",
+    "extra_example_fr": "C’est un voisin.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-011",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "loisirs",
+    "sentence": "Je regarde ___ film québécois.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "un",
+    "explanation_fr": "« Film » est masculin singulier, donc on utilise « un ».",
+    "explanation_en": "“Film” is masculine singular, so use “un”.",
+    "common_mistake_fr": "« une » serait féminin.",
+    "extra_example_fr": "Je lis un livre.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-012",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "cuisine",
+    "sentence": "Elle prépare ___ soupe aux légumes.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "une",
+    "explanation_fr": "« Soupe » est féminin singulier, donc on utilise « une ».",
+    "explanation_en": "“Soupe” is feminine singular, so use “une”.",
+    "common_mistake_fr": "« un » serait masculin.",
+    "extra_example_fr": "Elle fait une salade.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-013",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "appartement",
+    "sentence": "Nous visitons ___ appartement demain.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "un",
+    "explanation_fr": "« Appartement » est masculin singulier, donc on utilise « un ».",
+    "explanation_en": "“Appartement” is masculine singular, so use “un”.",
+    "common_mistake_fr": "Même devant voyelle, l’article indéfini reste « un ».",
+    "extra_example_fr": "Je cherche un emploi.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-014",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "vêtements",
+    "sentence": "Il porte ___ bottes d’hiver.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "des",
+    "explanation_fr": "« Bottes » est pluriel, donc on utilise « des ».",
+    "explanation_en": "“Bottes” is plural, so use “des”.",
+    "common_mistake_fr": "« une » serait singulier.",
+    "extra_example_fr": "Elle porte des gants.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-015",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "administration",
+    "sentence": "Je remplis ___ formulaire.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "un",
+    "explanation_fr": "« Formulaire » est masculin singulier, donc on utilise « un ».",
+    "explanation_en": "“Formulaire” is masculine singular, so use “un”.",
+    "common_mistake_fr": "« une » serait féminin.",
+    "extra_example_fr": "Je signe un document.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-016",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "temps",
+    "sentence": "Nous avons ___ réunion à midi.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "une",
+    "explanation_fr": "« Réunion » est féminin singulier, donc on utilise « une ».",
+    "explanation_en": "“Réunion” is feminine singular, so use “une”.",
+    "common_mistake_fr": "« un » serait masculin.",
+    "extra_example_fr": "J’ai une pause.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-017",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "école",
+    "sentence": "Les étudiants font ___ exercices.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "des",
+    "explanation_fr": "« Exercices » est pluriel, donc on utilise « des ».",
+    "explanation_en": "“Exercices” is plural, so use “des”.",
+    "common_mistake_fr": "« un » serait singulier.",
+    "extra_example_fr": "Ils font des devoirs.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-018",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "travail",
+    "sentence": "Elle cherche ___ emploi.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "un",
+    "explanation_fr": "« Emploi » est masculin singulier, donc on utilise « un ».",
+    "explanation_en": "“Emploi” is masculine singular, so use “un”.",
+    "common_mistake_fr": "« une » serait féminin.",
+    "extra_example_fr": "Il trouve un stage.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-019",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "météo",
+    "sentence": "Il y a ___ orage ce soir.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "un",
+    "explanation_fr": "« Orage » est masculin singulier, donc on utilise « un ».",
+    "explanation_en": "“Orage” is masculine singular, so use “un”.",
+    "common_mistake_fr": "« une » serait féminin.",
+    "extra_example_fr": "Il y a un vent fort.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-020",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "animaux",
+    "sentence": "Ma sœur a ___ voiture noire.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "une",
+    "explanation_fr": "« Voiture » est féminin singulier, donc on utilise « une ».",
+    "explanation_en": "“Voiture” is feminine singular, so use “une”.",
+    "common_mistake_fr": "« un » serait masculin.",
+    "extra_example_fr": "Elle a une bicyclette.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-021",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "magasin",
+    "sentence": "J’achète ___ cadeau pour mon ami.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "un",
+    "explanation_fr": "« Cadeau » est masculin singulier, donc on utilise « un ».",
+    "explanation_en": "“Cadeau” is masculine singular, so use “un”.",
+    "common_mistake_fr": "« une » serait féminin.",
+    "extra_example_fr": "J’achète un billet.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-022",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "café",
+    "sentence": "Je voudrais ___ muffin, s’il vous plaît.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "un",
+    "explanation_fr": "« Muffin » est masculin singulier, donc on utilise « un ».",
+    "explanation_en": "“Muffin” is masculine singular, so use “un”.",
+    "common_mistake_fr": "« une » serait féminin.",
+    "extra_example_fr": "Je prends un café.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-023",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "restaurant",
+    "sentence": "Ils commandent ___ pizzas.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "des",
+    "explanation_fr": "« Pizzas » est pluriel, donc on utilise « des ».",
+    "explanation_en": "“Pizzas” is plural, so use “des”.",
+    "common_mistake_fr": "« une » serait singulier.",
+    "extra_example_fr": "Ils mangent des frites.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-024",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "santé",
+    "sentence": "J’ai ___ allergie.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "une",
+    "explanation_fr": "« Allergie » est féminin singulier, donc on utilise « une ».",
+    "explanation_en": "“Allergie” is feminine singular, so use “une”.",
+    "common_mistake_fr": "« un » serait masculin.",
+    "extra_example_fr": "J’ai une douleur.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-025",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "ville",
+    "sentence": "Nous visitons ___ église ancienne.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "une",
+    "explanation_fr": "« Église » est féminin singulier, donc on utilise « une ».",
+    "explanation_en": "“Église” is feminine singular, so use “une”.",
+    "common_mistake_fr": "« un » serait masculin.",
+    "extra_example_fr": "Nous voyons une exposition.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-026",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "transport",
+    "sentence": "Il achète ___ billets de métro.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "des",
+    "explanation_fr": "« Billets » est pluriel, donc on utilise « des ».",
+    "explanation_en": "“Billets” is plural, so use “des”.",
+    "common_mistake_fr": "« un » serait singulier.",
+    "extra_example_fr": "Il achète des passes.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-027",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "maison",
+    "sentence": "Je cherche ___ lampe pour le salon.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "une",
+    "explanation_fr": "« Lampe » est féminin singulier, donc on utilise « une ».",
+    "explanation_en": "“Lampe” is feminine singular, so use “une”.",
+    "common_mistake_fr": "« un » serait masculin.",
+    "extra_example_fr": "Je veux une plante.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-028",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "famille",
+    "sentence": "Elle a ___ enfants.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "des",
+    "explanation_fr": "« Enfants » est pluriel, donc on utilise « des ».",
+    "explanation_en": "“Enfants” is plural, so use “des”.",
+    "common_mistake_fr": "« un » serait singulier.",
+    "extra_example_fr": "Ils ont des cousins.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-029",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "loisirs",
+    "sentence": "Je veux prendre ___ photos au parc.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "des",
+    "explanation_fr": "« Photos » est pluriel, donc on utilise « des ».",
+    "explanation_en": "“Photos” is plural, so use “des”.",
+    "common_mistake_fr": "« une » serait singulier.",
+    "extra_example_fr": "Je prends des vidéos.",
+    "difficulty": 1
+  },
+  {
+    "id": "indefinis-030",
+    "category": "indefinis",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "épicerie",
+    "sentence": "Il achète ___ tomate rouge.",
+    "choices": [
+      "un",
+      "une",
+      "des",
+      "de"
+    ],
+    "correct_answer": "une",
+    "explanation_fr": "« Tomate » est féminin singulier, donc on utilise « une ».",
+    "explanation_en": "“Tomate” is feminine singular, so use “une”.",
+    "common_mistake_fr": "« un » serait masculin.",
+    "extra_example_fr": "Il coupe une carotte.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-001",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "épicerie",
+    "sentence": "Je voudrais ___ pain.",
+    "choices": [
+      "le",
+      "un",
+      "du",
+      "des"
+    ],
+    "correct_answer": "du",
+    "explanation_fr": "On utilise « du » avec un nom masculin singulier quand la quantité n’est pas précise.",
+    "explanation_en": "Use “du” with masculine singular nouns for an unspecified quantity.",
+    "common_mistake_fr": "« le » parle d’un pain précis.",
+    "extra_example_fr": "Je mange du fromage.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-002",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "café",
+    "sentence": "Elle boit ___ eau.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "de l’",
+    "explanation_fr": "On utilise « de l’ » devant un nom qui commence par une voyelle.",
+    "explanation_en": "Use “de l’” before a noun starting with a vowel.",
+    "common_mistake_fr": "« de la eau » est incorrect.",
+    "extra_example_fr": "Je prends de l’huile.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-003",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "restaurant",
+    "sentence": "Nous mangeons ___ soupe.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "de la",
+    "explanation_fr": "« Soupe » est féminin singulier, donc on utilise « de la ».",
+    "explanation_en": "“Soupe” is feminine singular, so use “de la”.",
+    "common_mistake_fr": "« du » serait masculin.",
+    "extra_example_fr": "Elle mange de la salade.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-004",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "cuisine",
+    "sentence": "Il met ___ beurre sur son pain.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "du",
+    "explanation_fr": "« Beurre » est masculin singulier, donc on utilise « du ».",
+    "explanation_en": "“Beurre” is masculine singular, so use “du”.",
+    "common_mistake_fr": "« de la » serait féminin.",
+    "extra_example_fr": "Il ajoute du sel.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-005",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "épicerie",
+    "sentence": "J’achète ___ légumes.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "des",
+    "explanation_fr": "On utilise « des » avec un nom pluriel pour une quantité non précise.",
+    "explanation_en": "Use “des” with plural nouns for an unspecified quantity.",
+    "common_mistake_fr": "« du » est singulier masculin.",
+    "extra_example_fr": "J’achète des fruits.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-006",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "café",
+    "sentence": "Tu veux ___ café?",
+    "choices": [
+      "le",
+      "un",
+      "du",
+      "de la"
+    ],
+    "correct_answer": "du",
+    "explanation_fr": "On utilise « du » pour une quantité non précise de café.",
+    "explanation_en": "Use “du” for an unspecified amount of coffee.",
+    "common_mistake_fr": "« le café » veut dire un café précis ou le café en général.",
+    "extra_example_fr": "Je veux du thé.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-007",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "repas",
+    "sentence": "Je prends ___ riz avec le poulet.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "du",
+    "explanation_fr": "« Riz » est masculin singulier, donc on utilise « du ».",
+    "explanation_en": "“Riz” is masculine singular, so use “du”.",
+    "common_mistake_fr": "« des » serait pluriel.",
+    "extra_example_fr": "Je prends du couscous.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-008",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "épicerie",
+    "sentence": "Elle achète ___ confiture.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "de la",
+    "explanation_fr": "« Confiture » est féminin singulier, donc on utilise « de la ».",
+    "explanation_en": "“Confiture” is feminine singular, so use “de la”.",
+    "common_mistake_fr": "« du » serait masculin.",
+    "extra_example_fr": "Elle achète de la crème.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-009",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "cuisine",
+    "sentence": "Il ajoute ___ oignons.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "des",
+    "explanation_fr": "« Oignons » est pluriel, donc on utilise « des ».",
+    "explanation_en": "“Oignons” is plural, so use “des”.",
+    "common_mistake_fr": "« de l’ » est singulier.",
+    "extra_example_fr": "Il ajoute des épices.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-010",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "restaurant",
+    "sentence": "Je ne veux pas ___ dessert.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "de"
+    ],
+    "correct_answer": "de",
+    "explanation_fr": "À la forme négative, les articles partitifs deviennent souvent « de » ou « d’ ».",
+    "explanation_en": "In the negative form, partitive articles often become “de” or “d’”.",
+    "common_mistake_fr": "« du » devient « de » après « pas ».",
+    "extra_example_fr": "Je ne bois pas de café.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-011",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "épicerie",
+    "sentence": "Je n’achète pas ___ huile aujourd’hui.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "d’"
+    ],
+    "correct_answer": "d’",
+    "explanation_fr": "Devant une voyelle, « de » devient « d’ » à la forme négative.",
+    "explanation_en": "Before a vowel, “de” becomes “d’” in the negative form.",
+    "common_mistake_fr": "« de l’ » devient « d’ » après « pas ».",
+    "extra_example_fr": "Je ne veux pas d’eau.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-012",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "cuisine",
+    "sentence": "Nous avons ___ farine.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "de la",
+    "explanation_fr": "« Farine » est féminin singulier, donc on utilise « de la ».",
+    "explanation_en": "“Farine” is feminine singular, so use “de la”.",
+    "common_mistake_fr": "« du » serait masculin.",
+    "extra_example_fr": "Nous avons de la levure.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-013",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "déjeuner",
+    "sentence": "Il mange ___ céréales le matin.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "des",
+    "explanation_fr": "« Céréales » est pluriel, donc on utilise « des ».",
+    "explanation_en": "“Céréales” is plural, so use “des”.",
+    "common_mistake_fr": "« de la » serait singulier féminin.",
+    "extra_example_fr": "Elle mange des fruits.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-014",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "repas",
+    "sentence": "Je prends ___ poulet.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "du",
+    "explanation_fr": "« Poulet » est masculin singulier, donc on utilise « du ».",
+    "explanation_en": "“Poulet” is masculine singular, so use “du”.",
+    "common_mistake_fr": "« le » serait précis, pas une quantité.",
+    "extra_example_fr": "Je mange du poisson.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-015",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "restaurant",
+    "sentence": "Elle commande ___ salade.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "de la",
+    "explanation_fr": "« Salade » est féminin singulier, donc on utilise « de la ».",
+    "explanation_en": "“Salade” is feminine singular, so use “de la”.",
+    "common_mistake_fr": "« du » serait masculin.",
+    "extra_example_fr": "Elle prend de la soupe.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-016",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "cuisine",
+    "sentence": "Ajoute ___ ail dans la sauce.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "de l’",
+    "explanation_fr": "« Ail » commence par une voyelle, donc on utilise « de l’ ».",
+    "explanation_en": "“Ail” begins with a vowel, so use “de l’”.",
+    "common_mistake_fr": "« du ail » ne se dit pas.",
+    "extra_example_fr": "Ajoute de l’oignon.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-017",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "café",
+    "sentence": "Je mets ___ sucre dans mon café.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "du",
+    "explanation_fr": "« Sucre » est masculin singulier, donc on utilise « du ».",
+    "explanation_en": "“Sucre” is masculine singular, so use “du”.",
+    "common_mistake_fr": "« de la » serait féminin.",
+    "extra_example_fr": "Je mets du lait.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-018",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "épicerie",
+    "sentence": "Il faut acheter ___ œufs.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "des",
+    "explanation_fr": "« Œufs » est pluriel, donc on utilise « des ».",
+    "explanation_en": "“Œufs” is plural, so use “des”.",
+    "common_mistake_fr": "« de l’ » est singulier.",
+    "extra_example_fr": "Il achète des oranges.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-019",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "repas",
+    "sentence": "Je ne mange pas ___ viande.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "de"
+    ],
+    "correct_answer": "de",
+    "explanation_fr": "À la forme négative, « de la » devient « de ».",
+    "explanation_en": "In the negative form, “de la” becomes “de”.",
+    "common_mistake_fr": "« de la » change après « pas ».",
+    "extra_example_fr": "Je ne mange pas de porc.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-020",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "cuisine",
+    "sentence": "Nous buvons ___ jus d’orange.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "du",
+    "explanation_fr": "« Jus » est masculin singulier, donc on utilise « du ».",
+    "explanation_en": "“Jus” is masculine singular, so use “du”.",
+    "common_mistake_fr": "« de l’ » dépend du nom principal, ici « jus ».",
+    "extra_example_fr": "Nous buvons du lait.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-021",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "épicerie",
+    "sentence": "Elle prend ___ pommes de terre.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "des",
+    "explanation_fr": "« Pommes de terre » est pluriel, donc on utilise « des ».",
+    "explanation_en": "“Pommes de terre” is plural, so use “des”.",
+    "common_mistake_fr": "« de la » serait singulier féminin.",
+    "extra_example_fr": "Elle prend des carottes.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-022",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "restaurant",
+    "sentence": "Je veux ___ eau pétillante.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "de l’",
+    "explanation_fr": "« Eau » commence par une voyelle, donc on utilise « de l’ ».",
+    "explanation_en": "“Eau” begins with a vowel, so use “de l’”.",
+    "common_mistake_fr": "« de la eau » est incorrect.",
+    "extra_example_fr": "Je veux de l’eau froide.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-023",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "cuisine",
+    "sentence": "Tu as ___ sel?",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "du",
+    "explanation_fr": "« Sel » est masculin singulier, donc on utilise « du ».",
+    "explanation_en": "“Sel” is masculine singular, so use “du”.",
+    "common_mistake_fr": "« de la » serait féminin.",
+    "extra_example_fr": "Tu as du poivre?",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-024",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "épicerie",
+    "sentence": "Je n’ai pas ___ argent.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "d’"
+    ],
+    "correct_answer": "d’",
+    "explanation_fr": "À la négation, « de l’ » devient « d’ » devant une voyelle.",
+    "explanation_en": "In the negative, “de l’” becomes “d’” before a vowel.",
+    "common_mistake_fr": "« de l’ » change après « pas ».",
+    "extra_example_fr": "Je n’ai pas d’énergie.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-025",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "repas",
+    "sentence": "Ils mangent ___ fromage.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "du",
+    "explanation_fr": "« Fromage » est masculin singulier, donc on utilise « du ».",
+    "explanation_en": "“Fromage” is masculine singular, so use “du”.",
+    "common_mistake_fr": "« des » serait pluriel.",
+    "extra_example_fr": "Ils mangent du pain.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-026",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "cuisine",
+    "sentence": "Elle prépare ___ sauce tomate.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "de la",
+    "explanation_fr": "« Sauce » est féminin singulier, donc on utilise « de la ».",
+    "explanation_en": "“Sauce” is feminine singular, so use “de la”.",
+    "common_mistake_fr": "« du » serait masculin.",
+    "extra_example_fr": "Elle prépare de la pâte.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-027",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "déjeuner",
+    "sentence": "Je prends ___ yogourt.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "du",
+    "explanation_fr": "« Yogourt » est masculin singulier, donc on utilise « du ».",
+    "explanation_en": "“Yogourt” is masculine singular, so use “du”.",
+    "common_mistake_fr": "« de la » serait féminin.",
+    "extra_example_fr": "Je prends du granola.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-028",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "épicerie",
+    "sentence": "Nous n’achetons pas ___ bananes.",
+    "choices": [
+      "des",
+      "de",
+      "du",
+      "de la"
+    ],
+    "correct_answer": "de",
+    "explanation_fr": "À la forme négative, « des » devient souvent « de ».",
+    "explanation_en": "In the negative form, “des” often becomes “de”.",
+    "common_mistake_fr": "« des » change après « pas ».",
+    "extra_example_fr": "Nous n’achetons pas de pommes.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-029",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "restaurant",
+    "sentence": "Elle veut ___ frites avec son sandwich.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "des",
+    "explanation_fr": "« Frites » est pluriel, donc on utilise « des ».",
+    "explanation_en": "“Frites” is plural, so use “des”.",
+    "common_mistake_fr": "« de la » serait singulier féminin.",
+    "extra_example_fr": "Elle mange des légumes.",
+    "difficulty": 1
+  },
+  {
+    "id": "partitifs-030",
+    "category": "partitifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "cuisine",
+    "sentence": "Je mets ___ huile dans la poêle.",
+    "choices": [
+      "du",
+      "de la",
+      "de l’",
+      "des"
+    ],
+    "correct_answer": "de l’",
+    "explanation_fr": "« Huile » commence par un h muet, donc on utilise « de l’ ».",
+    "explanation_en": "“Huile” begins with a silent h/vowel sound, so use “de l’”.",
+    "common_mistake_fr": "« de la huile » est incorrect.",
+    "extra_example_fr": "Je mets de l’eau.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-001",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "famille",
+    "sentence": "Je présente ___ frère à mon ami.",
+    "choices": [
+      "mon",
+      "ma",
+      "mes",
+      "ton"
+    ],
+    "correct_answer": "mon",
+    "explanation_fr": "On utilise « mon » avec un nom masculin singulier.",
+    "explanation_en": "Use “mon” with a masculine singular noun.",
+    "common_mistake_fr": "« ma » serait féminin.",
+    "extra_example_fr": "Je présente mon père.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-002",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "famille",
+    "sentence": "Je présente ___ sœur à mon ami.",
+    "choices": [
+      "mon",
+      "ma",
+      "mes",
+      "son"
+    ],
+    "correct_answer": "ma",
+    "explanation_fr": "On utilise « ma » avec un nom féminin singulier.",
+    "explanation_en": "Use “ma” with a feminine singular noun.",
+    "common_mistake_fr": "« mon » serait masculin, sauf devant voyelle.",
+    "extra_example_fr": "Je présente ma mère.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-003",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "objets",
+    "sentence": "Où sont ___ clés?",
+    "choices": [
+      "mon",
+      "ma",
+      "mes",
+      "ta"
+    ],
+    "correct_answer": "mes",
+    "explanation_fr": "On utilise « mes » avec un nom pluriel.",
+    "explanation_en": "Use “mes” with a plural noun.",
+    "common_mistake_fr": "« ma » serait singulier féminin.",
+    "extra_example_fr": "Mes livres sont ici.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-004",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "école",
+    "sentence": "J’ai oublié ___ cahier.",
+    "choices": [
+      "mon",
+      "ma",
+      "mes",
+      "tes"
+    ],
+    "correct_answer": "mon",
+    "explanation_fr": "« Cahier » est masculin singulier, donc on utilise « mon ».",
+    "explanation_en": "“Cahier” is masculine singular, so use “mon”.",
+    "common_mistake_fr": "« ma » serait féminin.",
+    "extra_example_fr": "Mon stylo est bleu.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-005",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "santé",
+    "sentence": "Elle parle à ___ médecin.",
+    "choices": [
+      "son",
+      "sa",
+      "ses",
+      "leur"
+    ],
+    "correct_answer": "son",
+    "explanation_fr": "« Médecin » est masculin singulier, donc on utilise « son ».",
+    "explanation_en": "“Médecin” is masculine singular, so use “son”.",
+    "common_mistake_fr": "« sa » serait féminin.",
+    "extra_example_fr": "Son dentiste est gentil.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-006",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "maison",
+    "sentence": "Ils aiment ___ appartement.",
+    "choices": [
+      "leur",
+      "leurs",
+      "son",
+      "ses"
+    ],
+    "correct_answer": "leur",
+    "explanation_fr": "« Appartement » est singulier, donc on utilise « leur » pour plusieurs personnes qui possèdent une chose.",
+    "explanation_en": "Use “leur” for one thing owned by several people.",
+    "common_mistake_fr": "« leurs » serait pluriel.",
+    "extra_example_fr": "Leur maison est grande.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-007",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "maison",
+    "sentence": "Ils rangent ___ chaussures.",
+    "choices": [
+      "leur",
+      "leurs",
+      "son",
+      "sa"
+    ],
+    "correct_answer": "leurs",
+    "explanation_fr": "« Chaussures » est pluriel, donc on utilise « leurs ».",
+    "explanation_en": "“Chaussures” is plural, so use “leurs”.",
+    "common_mistake_fr": "« leur » serait singulier.",
+    "extra_example_fr": "Leurs enfants jouent.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-008",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "travail",
+    "sentence": "Nous appelons ___ patron.",
+    "choices": [
+      "notre",
+      "nos",
+      "votre",
+      "vos"
+    ],
+    "correct_answer": "notre",
+    "explanation_fr": "« Patron » est singulier, donc on utilise « notre ».",
+    "explanation_en": "“Patron” is singular, so use “notre”.",
+    "common_mistake_fr": "« nos » serait pluriel.",
+    "extra_example_fr": "Notre bureau est fermé.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-009",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "école",
+    "sentence": "Vous prenez ___ livres?",
+    "choices": [
+      "votre",
+      "vos",
+      "notre",
+      "nos"
+    ],
+    "correct_answer": "vos",
+    "explanation_fr": "« Livres » est pluriel, donc on utilise « vos ».",
+    "explanation_en": "“Livres” is plural, so use “vos”.",
+    "common_mistake_fr": "« votre » serait singulier.",
+    "extra_example_fr": "Vos cahiers sont là.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-010",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "famille",
+    "sentence": "Il accompagne ___ amie.",
+    "choices": [
+      "son",
+      "sa",
+      "ses",
+      "leur"
+    ],
+    "correct_answer": "son",
+    "explanation_fr": "Devant un nom féminin singulier qui commence par une voyelle, on utilise « son ».",
+    "explanation_en": "Use “son” before a feminine singular noun starting with a vowel.",
+    "common_mistake_fr": "« sa amie » est incorrect.",
+    "extra_example_fr": "Son école est loin.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-011",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "famille",
+    "sentence": "Tu visites ___ parents ce soir?",
+    "choices": [
+      "ton",
+      "ta",
+      "tes",
+      "son"
+    ],
+    "correct_answer": "tes",
+    "explanation_fr": "« Parents » est pluriel, donc on utilise « tes ».",
+    "explanation_en": "“Parents” is plural, so use “tes”.",
+    "common_mistake_fr": "« ton » serait singulier masculin.",
+    "extra_example_fr": "Tes amis arrivent.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-012",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "travail",
+    "sentence": "Je rencontre ___ voisin.",
+    "choices": [
+      "mon",
+      "ma",
+      "mes",
+      "notre"
+    ],
+    "correct_answer": "mon",
+    "explanation_fr": "« Voisin » est masculin singulier, donc on utilise « mon ».",
+    "explanation_en": "“Voisin” is masculine singular, so use “mon”.",
+    "common_mistake_fr": "« ma » serait féminin; « mes » serait pluriel.",
+    "extra_example_fr": "Mon collègue travaille.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-013",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "transport",
+    "sentence": "Elle cherche ___ carte OPUS.",
+    "choices": [
+      "son",
+      "sa",
+      "ses",
+      "leur"
+    ],
+    "correct_answer": "sa",
+    "explanation_fr": "« Carte » est féminin singulier, donc on utilise « sa ».",
+    "explanation_en": "“Carte” is feminine singular, so use “sa”.",
+    "common_mistake_fr": "« son » serait masculin ou féminin devant voyelle.",
+    "extra_example_fr": "Sa voiture est blanche.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-014",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "maison",
+    "sentence": "Je lave ___ vêtements.",
+    "choices": [
+      "mon",
+      "ma",
+      "mes",
+      "ton"
+    ],
+    "correct_answer": "mes",
+    "explanation_fr": "« Vêtements » est pluriel, donc on utilise « mes ».",
+    "explanation_en": "“Vêtements” is plural, so use “mes”.",
+    "common_mistake_fr": "« mon » serait singulier.",
+    "extra_example_fr": "Mes pantalons sont propres.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-015",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "école",
+    "sentence": "Tu écris ___ nom sur la feuille.",
+    "choices": [
+      "ton",
+      "ta",
+      "tes",
+      "sa"
+    ],
+    "correct_answer": "ton",
+    "explanation_fr": "« Nom » est masculin singulier, donc on utilise « ton ».",
+    "explanation_en": "“Nom” is masculine singular, so use “ton”.",
+    "common_mistake_fr": "« ta » serait féminin.",
+    "extra_example_fr": "Ton prénom est ici.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-016",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "santé",
+    "sentence": "Vous avez ___ carte d’assurance maladie?",
+    "choices": [
+      "votre",
+      "vos",
+      "notre",
+      "nos"
+    ],
+    "correct_answer": "votre",
+    "explanation_fr": "« Carte » est singulier, donc on utilise « votre ».",
+    "explanation_en": "“Carte” is singular, so use “votre”.",
+    "common_mistake_fr": "« vos » serait pluriel.",
+    "extra_example_fr": "Votre rendez-vous est confirmé.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-017",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "loisirs",
+    "sentence": "Nous invitons ___ amis.",
+    "choices": [
+      "notre",
+      "nos",
+      "votre",
+      "vos"
+    ],
+    "correct_answer": "nos",
+    "explanation_fr": "« Amis » est pluriel, donc on utilise « nos ».",
+    "explanation_en": "“Amis” is plural, so use “nos”.",
+    "common_mistake_fr": "« notre » serait singulier.",
+    "extra_example_fr": "Nos voisins arrivent.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-018",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "famille",
+    "sentence": "Elle parle avec ___ mère.",
+    "choices": [
+      "son",
+      "sa",
+      "ses",
+      "leur"
+    ],
+    "correct_answer": "sa",
+    "explanation_fr": "« Mère » est féminin singulier, donc on utilise « sa ».",
+    "explanation_en": "“Mère” is feminine singular, so use “sa”.",
+    "common_mistake_fr": "« son » serait masculin ou devant voyelle.",
+    "extra_example_fr": "Sa tante habite ici.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-019",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "appartement",
+    "sentence": "Tu nettoies ___ chambre?",
+    "choices": [
+      "ton",
+      "ta",
+      "tes",
+      "mon"
+    ],
+    "correct_answer": "ta",
+    "explanation_fr": "« Chambre » est féminin singulier, donc on utilise « ta ».",
+    "explanation_en": "“Chambre” is feminine singular, so use “ta”.",
+    "common_mistake_fr": "« ton » serait masculin ou devant voyelle.",
+    "extra_example_fr": "Ta cuisine est belle.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-020",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "travail",
+    "sentence": "Ils présentent ___ projet.",
+    "choices": [
+      "leur",
+      "leurs",
+      "son",
+      "ses"
+    ],
+    "correct_answer": "leur",
+    "explanation_fr": "« Projet » est singulier, donc on utilise « leur ».",
+    "explanation_en": "“Projet” is singular, so use “leur”.",
+    "common_mistake_fr": "« leurs » serait pluriel.",
+    "extra_example_fr": "Leur plan est simple.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-021",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "travail",
+    "sentence": "Ils présentent ___ idées.",
+    "choices": [
+      "leur",
+      "leurs",
+      "son",
+      "sa"
+    ],
+    "correct_answer": "leurs",
+    "explanation_fr": "« Idées » est pluriel, donc on utilise « leurs ».",
+    "explanation_en": "“Idées” is plural, so use “leurs”.",
+    "common_mistake_fr": "« leur » serait singulier.",
+    "extra_example_fr": "Leurs questions sont bonnes.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-022",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "famille",
+    "sentence": "Je téléphone à ___ oncle.",
+    "choices": [
+      "mon",
+      "ma",
+      "mes",
+      "ta"
+    ],
+    "correct_answer": "mon",
+    "explanation_fr": "« Oncle » est masculin singulier, donc on utilise « mon ».",
+    "explanation_en": "“Oncle” is masculine singular, so use “mon”.",
+    "common_mistake_fr": "« ma » serait féminin.",
+    "extra_example_fr": "Mon cousin arrive.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-023",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "famille",
+    "sentence": "Je téléphone à ___ tante.",
+    "choices": [
+      "mon",
+      "ma",
+      "mes",
+      "ton"
+    ],
+    "correct_answer": "ma",
+    "explanation_fr": "« Tante » est féminin singulier, donc on utilise « ma ».",
+    "explanation_en": "“Tante” is feminine singular, so use “ma”.",
+    "common_mistake_fr": "« mon » serait masculin.",
+    "extra_example_fr": "Ma cousine arrive.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-024",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "école",
+    "sentence": "Il corrige ___ devoirs.",
+    "choices": [
+      "son",
+      "sa",
+      "ses",
+      "leur"
+    ],
+    "correct_answer": "ses",
+    "explanation_fr": "« Devoirs » est pluriel, donc on utilise « ses ».",
+    "explanation_en": "“Devoirs” is plural, so use “ses”.",
+    "common_mistake_fr": "« son » serait singulier.",
+    "extra_example_fr": "Ses exercices sont finis.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-025",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "transport",
+    "sentence": "Nous attendons ___ autobus.",
+    "choices": [
+      "notre",
+      "nos",
+      "votre",
+      "vos"
+    ],
+    "correct_answer": "notre",
+    "explanation_fr": "« Autobus » est singulier, donc on utilise « notre ».",
+    "explanation_en": "“Autobus” is singular, so use “notre”.",
+    "common_mistake_fr": "« nos » serait pluriel.",
+    "extra_example_fr": "Notre train arrive.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-026",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "maison",
+    "sentence": "Vous ouvrez ___ fenêtres?",
+    "choices": [
+      "votre",
+      "vos",
+      "notre",
+      "nos"
+    ],
+    "correct_answer": "vos",
+    "explanation_fr": "« Fenêtres » est pluriel, donc on utilise « vos ».",
+    "explanation_en": "“Fenêtres” is plural, so use “vos”.",
+    "common_mistake_fr": "« votre » serait singulier.",
+    "extra_example_fr": "Vos portes sont ouvertes.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-027",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "santé",
+    "sentence": "Elle prend ___ médicaments.",
+    "choices": [
+      "son",
+      "sa",
+      "ses",
+      "leur"
+    ],
+    "correct_answer": "ses",
+    "explanation_fr": "« Médicaments » est pluriel, donc on utilise « ses ».",
+    "explanation_en": "“Médicaments” is plural, so use “ses”.",
+    "common_mistake_fr": "« son » serait singulier.",
+    "extra_example_fr": "Ses lunettes sont cassées.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-028",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "café",
+    "sentence": "Tu prends ___ café?",
+    "choices": [
+      "ton",
+      "ta",
+      "tes",
+      "ma"
+    ],
+    "correct_answer": "ton",
+    "explanation_fr": "« Café » est masculin singulier, donc on utilise « ton ».",
+    "explanation_en": "“Café” is masculine singular, so use “ton”.",
+    "common_mistake_fr": "« ta » serait féminin.",
+    "extra_example_fr": "Ton thé est chaud.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-029",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "ville",
+    "sentence": "Je donne ___ adresse au secrétaire.",
+    "choices": [
+      "mon",
+      "ma",
+      "mes",
+      "ton"
+    ],
+    "correct_answer": "mon",
+    "explanation_fr": "Devant un nom féminin qui commence par une voyelle, on utilise « mon ».",
+    "explanation_en": "Use “mon” before a feminine noun starting with a vowel.",
+    "common_mistake_fr": "« ma adresse » est incorrect.",
+    "extra_example_fr": "Mon adresse est sur le formulaire.",
+    "difficulty": 1
+  },
+  {
+    "id": "possessifs-030",
+    "category": "possessifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "administration",
+    "sentence": "Vous signez ___ documents.",
+    "choices": [
+      "votre",
+      "vos",
+      "notre",
+      "nos"
+    ],
+    "correct_answer": "vos",
+    "explanation_fr": "« Documents » est pluriel, donc on utilise « vos ».",
+    "explanation_en": "“Documents” is plural, so use “vos”.",
+    "common_mistake_fr": "« votre » serait singulier.",
+    "extra_example_fr": "Vos formulaires sont prêts.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-001",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "magasin",
+    "sentence": "J’aime ___ manteau.",
+    "choices": [
+      "ce",
+      "cet",
+      "cette",
+      "ces"
+    ],
+    "correct_answer": "ce",
+    "explanation_fr": "On utilise « ce » avec un nom masculin singulier qui commence par une consonne.",
+    "explanation_en": "Use “ce” with a masculine singular noun starting with a consonant.",
+    "common_mistake_fr": "« cette » serait féminin.",
+    "extra_example_fr": "Ce chandail est beau.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-002",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "magasin",
+    "sentence": "J’aime ___ chemise.",
+    "choices": [
+      "ce",
+      "cet",
+      "cette",
+      "ces"
+    ],
+    "correct_answer": "cette",
+    "explanation_fr": "On utilise « cette » avec un nom féminin singulier.",
+    "explanation_en": "Use “cette” with a feminine singular noun.",
+    "common_mistake_fr": "« ce » serait masculin.",
+    "extra_example_fr": "Cette robe est jolie.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-003",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "école",
+    "sentence": "___ exercice est difficile.",
+    "choices": [
+      "Ce",
+      "Cet",
+      "Cette",
+      "Ces"
+    ],
+    "correct_answer": "Cet",
+    "explanation_fr": "On utilise « cet » avec un nom masculin singulier qui commence par une voyelle.",
+    "explanation_en": "Use “cet” with a masculine singular noun starting with a vowel.",
+    "common_mistake_fr": "« ce exercice » est incorrect.",
+    "extra_example_fr": "Cet appartement est grand.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-004",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "épicerie",
+    "sentence": "Combien coûtent ___ pommes?",
+    "choices": [
+      "ce",
+      "cet",
+      "cette",
+      "ces"
+    ],
+    "correct_answer": "ces",
+    "explanation_fr": "On utilise « ces » avec un nom pluriel.",
+    "explanation_en": "Use “ces” with a plural noun.",
+    "common_mistake_fr": "« cette » serait singulier féminin.",
+    "extra_example_fr": "Ces oranges sont bonnes.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-005",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "transport",
+    "sentence": "___ autobus va au centre-ville.",
+    "choices": [
+      "Ce",
+      "Cet",
+      "Cette",
+      "Ces"
+    ],
+    "correct_answer": "Cet",
+    "explanation_fr": "« Autobus » commence par une voyelle, donc on utilise « cet » au masculin singulier.",
+    "explanation_en": "“Autobus” starts with a vowel, so use “cet” for masculine singular.",
+    "common_mistake_fr": "« ce autobus » est incorrect.",
+    "extra_example_fr": "Cet homme attend.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-006",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "maison",
+    "sentence": "___ fenêtre est ouverte.",
+    "choices": [
+      "Ce",
+      "Cet",
+      "Cette",
+      "Ces"
+    ],
+    "correct_answer": "Cette",
+    "explanation_fr": "« Fenêtre » est féminin singulier, donc on utilise « cette ».",
+    "explanation_en": "“Fenêtre” is feminine singular, so use “cette”.",
+    "common_mistake_fr": "« ce » serait masculin.",
+    "extra_example_fr": "Cette porte est fermée.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-007",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "restaurant",
+    "sentence": "___ menu est en français.",
+    "choices": [
+      "Ce",
+      "Cet",
+      "Cette",
+      "Ces"
+    ],
+    "correct_answer": "Ce",
+    "explanation_fr": "« Menu » est masculin singulier avec consonne, donc on utilise « ce ».",
+    "explanation_en": "“Menu” is masculine singular starting with consonant, so use “ce”.",
+    "common_mistake_fr": "« cet » s’utilise devant voyelle.",
+    "extra_example_fr": "Ce repas est bon.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-008",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "santé",
+    "sentence": "___ infirmière est gentille.",
+    "choices": [
+      "Ce",
+      "Cet",
+      "Cette",
+      "Ces"
+    ],
+    "correct_answer": "Cette",
+    "explanation_fr": "« Infirmière » est féminin singulier, donc on utilise toujours « cette ».",
+    "explanation_en": "“Infirmière” is feminine singular, so use “cette”.",
+    "common_mistake_fr": "« cet » est masculin devant voyelle.",
+    "extra_example_fr": "Cette amie est gentille.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-009",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "travail",
+    "sentence": "___ collègues sont nouveaux.",
+    "choices": [
+      "Ce",
+      "Cet",
+      "Cette",
+      "Ces"
+    ],
+    "correct_answer": "Ces",
+    "explanation_fr": "« Collègues » est pluriel, donc on utilise « ces ».",
+    "explanation_en": "“Collègues” is plural, so use “ces”.",
+    "common_mistake_fr": "« ce » serait singulier masculin.",
+    "extra_example_fr": "Ces employés travaillent.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-010",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "famille",
+    "sentence": "Je connais ___ homme.",
+    "choices": [
+      "ce",
+      "cet",
+      "cette",
+      "ces"
+    ],
+    "correct_answer": "cet",
+    "explanation_fr": "On utilise « cet » avec un nom masculin singulier qui commence par h muet ou voyelle.",
+    "explanation_en": "Use “cet” with masculine singular nouns starting with a silent h or vowel.",
+    "common_mistake_fr": "« ce homme » est incorrect.",
+    "extra_example_fr": "Cet hiver est froid.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-011",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "loisirs",
+    "sentence": "___ film est drôle.",
+    "choices": [
+      "Ce",
+      "Cet",
+      "Cette",
+      "Ces"
+    ],
+    "correct_answer": "Ce",
+    "explanation_fr": "« Film » est masculin singulier avec consonne, donc on utilise « ce ».",
+    "explanation_en": "“Film” is masculine singular starting with consonant, so use “ce”.",
+    "common_mistake_fr": "« cette » serait féminin.",
+    "extra_example_fr": "Ce livre est intéressant.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-012",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "ville",
+    "sentence": "___ rue est très connue.",
+    "choices": [
+      "Ce",
+      "Cet",
+      "Cette",
+      "Ces"
+    ],
+    "correct_answer": "Cette",
+    "explanation_fr": "« Rue » est féminin singulier, donc on utilise « cette ».",
+    "explanation_en": "“Rue” is feminine singular, so use “cette”.",
+    "common_mistake_fr": "« ce » serait masculin.",
+    "extra_example_fr": "Cette ville est grande.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-013",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "administration",
+    "sentence": "Je dois remplir ___ formulaire.",
+    "choices": [
+      "ce",
+      "cet",
+      "cette",
+      "ces"
+    ],
+    "correct_answer": "ce",
+    "explanation_fr": "« Formulaire » est masculin singulier avec consonne, donc on utilise « ce ».",
+    "explanation_en": "“Formulaire” is masculine singular starting with consonant, so use “ce”.",
+    "common_mistake_fr": "« cet » s’utilise devant voyelle.",
+    "extra_example_fr": "Ce document est important.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-014",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "appartement",
+    "sentence": "___ appartement est trop cher.",
+    "choices": [
+      "Ce",
+      "Cet",
+      "Cette",
+      "Ces"
+    ],
+    "correct_answer": "Cet",
+    "explanation_fr": "« Appartement » est masculin singulier et commence par une voyelle, donc on utilise « cet ».",
+    "explanation_en": "“Appartement” is masculine singular and starts with a vowel, so use “cet”.",
+    "common_mistake_fr": "« ce appartement » est incorrect.",
+    "extra_example_fr": "Cet immeuble est vieux.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-015",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "épicerie",
+    "sentence": "Je prends ___ bananes.",
+    "choices": [
+      "ce",
+      "cet",
+      "cette",
+      "ces"
+    ],
+    "correct_answer": "ces",
+    "explanation_fr": "« Bananes » est pluriel, donc on utilise « ces ».",
+    "explanation_en": "“Bananes” is plural, so use “ces”.",
+    "common_mistake_fr": "« cette » serait singulier.",
+    "extra_example_fr": "Ces fraises sont rouges.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-016",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "météo",
+    "sentence": "___ journée est froide.",
+    "choices": [
+      "Ce",
+      "Cet",
+      "Cette",
+      "Ces"
+    ],
+    "correct_answer": "Cette",
+    "explanation_fr": "« Journée » est féminin singulier, donc on utilise « cette ».",
+    "explanation_en": "“Journée” is feminine singular, so use “cette”.",
+    "common_mistake_fr": "« ce » serait masculin.",
+    "extra_example_fr": "Cette semaine est occupée.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-017",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "école",
+    "sentence": "___ école est près du métro.",
+    "choices": [
+      "Ce",
+      "Cet",
+      "Cette",
+      "Ces"
+    ],
+    "correct_answer": "Cette",
+    "explanation_fr": "« École » est féminin singulier, donc on utilise « cette ».",
+    "explanation_en": "“École” is feminine singular, so use “cette”.",
+    "common_mistake_fr": "« cet » serait masculin devant voyelle.",
+    "extra_example_fr": "Cette université est grande.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-018",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "transport",
+    "sentence": "Je prends ___ train demain.",
+    "choices": [
+      "ce",
+      "cet",
+      "cette",
+      "ces"
+    ],
+    "correct_answer": "ce",
+    "explanation_fr": "« Train » est masculin singulier avec consonne, donc on utilise « ce ».",
+    "explanation_en": "“Train” is masculine singular starting with consonant, so use “ce”.",
+    "common_mistake_fr": "« cette » serait féminin.",
+    "extra_example_fr": "Ce taxi arrive.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-019",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "cuisine",
+    "sentence": "___ sauce est épicée.",
+    "choices": [
+      "Ce",
+      "Cet",
+      "Cette",
+      "Ces"
+    ],
+    "correct_answer": "Cette",
+    "explanation_fr": "« Sauce » est féminin singulier, donc on utilise « cette ».",
+    "explanation_en": "“Sauce” is feminine singular, so use “cette”.",
+    "common_mistake_fr": "« ce » serait masculin.",
+    "extra_example_fr": "Cette soupe est chaude.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-020",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "café",
+    "sentence": "___ café est excellent.",
+    "choices": [
+      "Ce",
+      "Cet",
+      "Cette",
+      "Ces"
+    ],
+    "correct_answer": "Ce",
+    "explanation_fr": "« Café » est masculin singulier avec consonne, donc on utilise « ce ».",
+    "explanation_en": "“Café” is masculine singular starting with consonant, so use “ce”.",
+    "common_mistake_fr": "« cette » serait féminin.",
+    "extra_example_fr": "Ce thé est bon.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-021",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "famille",
+    "sentence": "___ enfants sont fatigués.",
+    "choices": [
+      "Ce",
+      "Cet",
+      "Cette",
+      "Ces"
+    ],
+    "correct_answer": "Ces",
+    "explanation_fr": "« Enfants » est pluriel, donc on utilise « ces ».",
+    "explanation_en": "“Enfants” is plural, so use “ces”.",
+    "common_mistake_fr": "« cet » serait singulier.",
+    "extra_example_fr": "Ces amis sont gentils.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-022",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "santé",
+    "sentence": "___ hôpital est loin.",
+    "choices": [
+      "Ce",
+      "Cet",
+      "Cette",
+      "Ces"
+    ],
+    "correct_answer": "Cet",
+    "explanation_fr": "« Hôpital » est masculin singulier avec h muet, donc on utilise « cet ».",
+    "explanation_en": "“Hôpital” is masculine singular with silent h, so use “cet”.",
+    "common_mistake_fr": "« ce hôpital » est incorrect.",
+    "extra_example_fr": "Cet hôtel est propre.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-023",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "magasin",
+    "sentence": "Je veux essayer ___ pantalon.",
+    "choices": [
+      "ce",
+      "cet",
+      "cette",
+      "ces"
+    ],
+    "correct_answer": "ce",
+    "explanation_fr": "« Pantalon » est masculin singulier, donc on utilise « ce ».",
+    "explanation_en": "“Pantalon” is masculine singular, so use “ce”.",
+    "common_mistake_fr": "« ces » serait pluriel.",
+    "extra_example_fr": "Ce manteau est chaud.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-024",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "magasin",
+    "sentence": "Je veux essayer ___ bottes.",
+    "choices": [
+      "ce",
+      "cet",
+      "cette",
+      "ces"
+    ],
+    "correct_answer": "ces",
+    "explanation_fr": "« Bottes » est pluriel, donc on utilise « ces ».",
+    "explanation_en": "“Bottes” is plural, so use “ces”.",
+    "common_mistake_fr": "« cette » serait singulier.",
+    "extra_example_fr": "Ces souliers sont noirs.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-025",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "travail",
+    "sentence": "___ réunion commence bientôt.",
+    "choices": [
+      "Ce",
+      "Cet",
+      "Cette",
+      "Ces"
+    ],
+    "correct_answer": "Cette",
+    "explanation_fr": "« Réunion » est féminin singulier, donc on utilise « cette ».",
+    "explanation_en": "“Réunion” is feminine singular, so use “cette”.",
+    "common_mistake_fr": "« ce » serait masculin.",
+    "extra_example_fr": "Cette pause est courte.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-026",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "quartier",
+    "sentence": "___ parc est tranquille.",
+    "choices": [
+      "Ce",
+      "Cet",
+      "Cette",
+      "Ces"
+    ],
+    "correct_answer": "Ce",
+    "explanation_fr": "« Parc » est masculin singulier avec consonne, donc on utilise « ce ».",
+    "explanation_en": "“Parc” is masculine singular starting with consonant, so use “ce”.",
+    "common_mistake_fr": "« cette » serait féminin.",
+    "extra_example_fr": "Ce quartier est calme.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-027",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "maison",
+    "sentence": "___ ordinateur est neuf.",
+    "choices": [
+      "Ce",
+      "Cet",
+      "Cette",
+      "Ces"
+    ],
+    "correct_answer": "Cet",
+    "explanation_fr": "« Ordinateur » est masculin singulier et commence par une voyelle, donc on utilise « cet ».",
+    "explanation_en": "“Ordinateur” is masculine singular and starts with a vowel, so use “cet”.",
+    "common_mistake_fr": "« ce ordinateur » est incorrect.",
+    "extra_example_fr": "Cet écran est grand.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-028",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "loisirs",
+    "sentence": "___ chansons sont connues.",
+    "choices": [
+      "Ce",
+      "Cet",
+      "Cette",
+      "Ces"
+    ],
+    "correct_answer": "Ces",
+    "explanation_fr": "« Chansons » est pluriel, donc on utilise « ces ».",
+    "explanation_en": "“Chansons” is plural, so use “ces”.",
+    "common_mistake_fr": "« cette » serait singulier.",
+    "extra_example_fr": "Ces films sont bons.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-029",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "administration",
+    "sentence": "___ lettre est officielle.",
+    "choices": [
+      "Ce",
+      "Cet",
+      "Cette",
+      "Ces"
+    ],
+    "correct_answer": "Cette",
+    "explanation_fr": "« Lettre » est féminin singulier, donc on utilise « cette ».",
+    "explanation_en": "“Lettre” is feminine singular, so use “cette”.",
+    "common_mistake_fr": "« ce » serait masculin.",
+    "extra_example_fr": "Cette carte est valide.",
+    "difficulty": 1
+  },
+  {
+    "id": "demonstratifs-030",
+    "category": "demonstratifs",
+    "niveau": "A2 CECR / Échelle québécoise 3-4",
+    "context": "ville",
+    "sentence": "___ arrêt est juste ici.",
+    "choices": [
+      "Ce",
+      "Cet",
+      "Cette",
+      "Ces"
+    ],
+    "correct_answer": "Cet",
+    "explanation_fr": "« Arrêt » est masculin singulier et commence par une voyelle, donc on utilise « cet ».",
+    "explanation_en": "“Arrêt” is masculine singular and starts with a vowel, so use “cet”.",
+    "common_mistake_fr": "« ce arrêt » est incorrect.",
+    "extra_example_fr": "Cet endroit est calme.",
+    "difficulty": 1
+  }
+]

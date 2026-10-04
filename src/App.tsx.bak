@@ -1,0 +1,489 @@
+import { useEffect, useMemo, useState } from "react";
+import { categoryLabels, chapters, getChapterQuestions, getMixedQuestions, loadQuestions } from "./data/questions";
+import { checkRewardTriggers } from "./rewards";
+import { calculateScore, scoreByCategory } from "./scoring";
+import {
+  clearMistakes,
+  loadMistakes,
+  loadProgress,
+  loadSettings,
+  recordMistakes,
+  resetAllData,
+  saveSettings,
+  updateProgress,
+} from "./storage";
+import type { AnswerRecord, CategoryId, Chapter, MistakeRecord, QuizConfig, Reward, Screen, Settings, StoredProgress } from "./types";
+
+const categories = Object.keys(categoryLabels) as CategoryId[];
+
+export default function App() {
+  const [screen, setScreen] = useState<Screen>("home");
+  const [quiz, setQuiz] = useState<QuizConfig | null>(null);
+  const [lastResults, setLastResults] = useState<AnswerRecord[]>([]);
+  const [progress, setProgress] = useState<StoredProgress>(() => loadProgress());
+  const [mistakes, setMistakes] = useState<MistakeRecord[]>(() => loadMistakes());
+  const [settings, setSettings] = useState<Settings>(() => loadSettings());
+  const [rewards, setRewards] = useState<Reward[]>([]);
+
+  function startChapter(chapter: Chapter) {
+    setQuiz({
+      mode: "chapter",
+      title: `${categoryLabels[chapter.category]}: ${chapter.title}`,
+      chapterId: chapter.id,
+      questions: getChapterQuestions(chapter),
+    });
+    setScreen("quiz");
+  }
+
+  function startMiniTest() {
+    setQuiz({ mode: "mini", title: "Mini-test mixte", questions: getMixedQuestions(20) });
+    setScreen("quiz");
+  }
+
+  function startFinalExam() {
+    setQuiz({ mode: "final", title: "Examen final mixte", questions: getMixedQuestions(40) });
+    setScreen("quiz");
+  }
+
+  function finishQuiz(records: AnswerRecord[]) {
+    const updatedProgress = updateProgress(records, quiz?.chapterId);
+    const updatedMistakes = recordMistakes(records);
+    const missedQuestionIds = records.filter((record) => !record.isCorrect).map((record) => record.question.id);
+    const hasRepeatedMistake = updatedMistakes.some(
+      (mistake) => missedQuestionIds.includes(mistake.questionId) && mistake.count > 1,
+    );
+    const nextRewards = quiz ? checkRewardTriggers(quiz.mode, records, updatedProgress, hasRepeatedMistake) : [];
+    setProgress(updatedProgress);
+    setMistakes(updatedMistakes);
+    setRewards(nextRewards);
+    setLastResults(records);
+    setScreen("results");
+  }
+
+  function updateSettings(next: Settings) {
+    setSettings(next);
+    saveSettings(next);
+  }
+
+  function resetData() {
+    resetAllData();
+    setProgress(loadProgress());
+    setMistakes([]);
+    setSettings(loadSettings());
+    setRewards([]);
+  }
+
+  const questionCount = loadQuestions().length;
+
+  return (
+    <div className="app">
+      <header className="topbar">
+        <button className="brand" onClick={() => setScreen("home")}>
+          Français A2 Québec
+        </button>
+        <nav className="nav" aria-label="Navigation principale">
+          {[
+            ["home", "Accueil"],
+            ["practice", "Pratique"],
+            ["rules", "Règles"],
+            ["mistakes", "Erreurs"],
+            ["settings", "Paramètres"],
+          ].map(([target, label]) => (
+            <button
+              key={target}
+              className={screen === target ? "active" : ""}
+              onClick={() => setScreen(target as Screen)}
+            >
+              {label}
+            </button>
+          ))}
+        </nav>
+      </header>
+
+      <main className="shell">
+        {screen === "home" && (
+          <HomePage
+            questionCount={questionCount}
+            progress={progress}
+            onStartPractice={() => setScreen("practice")}
+            onMiniTest={startMiniTest}
+            onFinalExam={startFinalExam}
+          />
+        )}
+        {screen === "practice" && <PracticePage onStartChapter={startChapter} onMiniTest={startMiniTest} onFinalExam={startFinalExam} />}
+        {screen === "quiz" && quiz && <QuizPage quiz={quiz} onFinish={finishQuiz} onCancel={() => setScreen("practice")} />}
+        {screen === "results" && (
+          <ResultsPage
+            records={lastResults}
+            rewards={rewards}
+            soundEnabled={settings.soundEnabled}
+            onPractice={() => setScreen("practice")}
+            onMistakes={() => setScreen("mistakes")}
+          />
+        )}
+        {screen === "mistakes" && (
+          <MistakesPage
+            mistakes={mistakes}
+            onClear={() => {
+              clearMistakes();
+              setMistakes([]);
+            }}
+          />
+        )}
+        {screen === "rules" && <RulesPage onStartChapter={startChapter} />}
+        {screen === "settings" && <SettingsPage settings={settings} onChange={updateSettings} onReset={resetData} />}
+      </main>
+    </div>
+  );
+}
+
+function HomePage({
+  questionCount,
+  progress,
+  onStartPractice,
+  onMiniTest,
+  onFinalExam,
+}: {
+  questionCount: number;
+  progress: StoredProgress;
+  onStartPractice: () => void;
+  onMiniTest: () => void;
+  onFinalExam: () => void;
+}) {
+  return (
+    <section className="page hero">
+      <div>
+        <p className="eyebrow">A2 CECR / Échelle québécoise 3-4</p>
+        <h1>Pratique les déterminants, une question à la fois.</h1>
+        <p className="lede">
+          Choisis un chapitre, fais un mini-test ou essaie l’examen final. Les explications restent en français, avec
+          une aide en anglais seulement si tu la demandes.
+        </p>
+        <div className="actions">
+          <button className="primary" onClick={onStartPractice}>Choisir une pratique</button>
+          <button onClick={onMiniTest}>Mini-test</button>
+          <button onClick={onFinalExam}>Examen final</button>
+        </div>
+      </div>
+      <ProgressSummary progress={progress} questionCount={questionCount} />
+    </section>
+  );
+}
+
+function PracticePage({
+  onStartChapter,
+  onMiniTest,
+  onFinalExam,
+}: {
+  onStartChapter: (chapter: Chapter) => void;
+  onMiniTest: () => void;
+  onFinalExam: () => void;
+}) {
+  return (
+    <section className="page">
+      <div className="sectionHeader">
+        <div>
+          <p className="eyebrow">Choisir une pratique</p>
+          <h1>Chapitres</h1>
+        </div>
+        <div className="actions compact">
+          <button onClick={onMiniTest}>Mini-test 20 questions</button>
+          <button onClick={onFinalExam}>Examen final 40 questions</button>
+        </div>
+      </div>
+      <div className="categoryGrid">
+        {categories.map((category) => (
+          <article className="categoryBlock" key={category}>
+            <h2>{categoryLabels[category]}</h2>
+            <div className="chapterList">
+              {chapters
+                .filter((chapter) => chapter.category === category)
+                .map((chapter) => (
+                  <button key={chapter.id} className="chapterButton" onClick={() => onStartChapter(chapter)}>
+                    <span>{chapter.title}</span>
+                    <small>{chapter.subtitle}</small>
+                  </button>
+                ))}
+            </div>
+          </article>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function QuizPage({ quiz, onFinish, onCancel }: { quiz: QuizConfig; onFinish: (records: AnswerRecord[]) => void; onCancel: () => void }) {
+  const [index, setIndex] = useState(0);
+  const [selected, setSelected] = useState("");
+  const [validated, setValidated] = useState(false);
+  const [showEnglish, setShowEnglish] = useState(false);
+  const [records, setRecords] = useState<AnswerRecord[]>([]);
+  const question = quiz.questions[index];
+  const isCorrect = selected === question.correct_answer;
+
+  function validate() {
+    if (!selected) return;
+    setValidated(true);
+  }
+
+  function next() {
+    const record = { question, selectedAnswer: selected, isCorrect };
+    const nextRecords = [...records, record];
+    if (index === quiz.questions.length - 1) {
+      onFinish(nextRecords);
+      return;
+    }
+    setRecords(nextRecords);
+    setIndex(index + 1);
+    setSelected("");
+    setValidated(false);
+    setShowEnglish(false);
+  }
+
+  return (
+    <section className="page quizPage">
+      <div className="quizTop">
+        <div>
+          <p className="eyebrow">{quiz.title}</p>
+          <h1>Question {index + 1} / {quiz.questions.length}</h1>
+        </div>
+        <button onClick={onCancel}>Quitter</button>
+      </div>
+      <div className="meter"><span style={{ width: `${((index + 1) / quiz.questions.length) * 100}%` }} /></div>
+      <article className="questionCard">
+        <p className="context">{categoryLabels[question.category]} · {question.context}</p>
+        <h2>{question.sentence}</h2>
+        <div className="choices">
+          {question.choices.map((choice) => (
+            <button
+              key={choice}
+              className={[
+                "choice",
+                selected === choice ? "selected" : "",
+                validated && choice === question.correct_answer ? "correct" : "",
+                validated && selected === choice && choice !== question.correct_answer ? "wrong" : "",
+              ].join(" ")}
+              onClick={() => !validated && setSelected(choice)}
+            >
+              {choice}
+            </button>
+          ))}
+        </div>
+        {!validated && <button className="primary validate" disabled={!selected} onClick={validate}>Valider</button>}
+        {validated && (
+          <ExplanationBox
+            isCorrect={isCorrect}
+            selectedAnswer={selected}
+            correctAnswer={question.correct_answer}
+            explanationFr={question.explanation_fr}
+            explanationEn={question.explanation_en}
+            commonMistakeFr={question.common_mistake_fr}
+            extraExampleFr={question.extra_example_fr}
+            showEnglish={showEnglish}
+            onShowEnglish={() => setShowEnglish(true)}
+            onNext={next}
+            isLast={index === quiz.questions.length - 1}
+          />
+        )}
+      </article>
+    </section>
+  );
+}
+
+function ExplanationBox(props: {
+  isCorrect: boolean;
+  selectedAnswer: string;
+  correctAnswer: string;
+  explanationFr: string;
+  explanationEn: string;
+  commonMistakeFr: string;
+  extraExampleFr: string;
+  showEnglish: boolean;
+  onShowEnglish: () => void;
+  onNext: () => void;
+  isLast: boolean;
+}) {
+  return (
+    <div className={`feedback ${props.isCorrect ? "ok" : "no"}`}>
+      <h3>{props.isCorrect ? "Correct." : "Pas encore."}</h3>
+      <p>Bonne réponse: <strong>{props.correctAnswer}</strong></p>
+      {!props.isCorrect && <p>Ta réponse: <strong>{props.selectedAnswer}</strong></p>}
+      <p>{props.explanationFr}</p>
+      <p className="hint">{props.commonMistakeFr}</p>
+      <p className="example">Exemple: {props.extraExampleFr}</p>
+      {!props.showEnglish ? (
+        <button onClick={props.onShowEnglish}>Je ne comprends pas, explique en anglais</button>
+      ) : (
+        <p className="english">{props.explanationEn}</p>
+      )}
+      <button className="primary" onClick={props.onNext}>{props.isLast ? "Voir les résultats" : "Question suivante"}</button>
+    </div>
+  );
+}
+
+function ResultsPage({
+  records,
+  rewards,
+  soundEnabled,
+  onPractice,
+  onMistakes,
+}: {
+  records: AnswerRecord[];
+  rewards: Reward[];
+  soundEnabled: boolean;
+  onPractice: () => void;
+  onMistakes: () => void;
+}) {
+  const score = calculateScore(records);
+  const byCategory = scoreByCategory(records);
+  return (
+    <section className="page">
+      <p className="eyebrow">Résultats</p>
+      <h1>{score.correct} / {score.total} · {score.percent} %</h1>
+      {rewards.map((reward) => <RewardToast reward={reward} soundEnabled={soundEnabled} key={reward.event} />)}
+      <div className="breakdown">
+        {Object.entries(byCategory).map(([category, stats]) => (
+          <div className="statRow" key={category}>
+            <span>{categoryLabels[category as CategoryId]}</span>
+            <strong>{stats.correct}/{stats.total} · {stats.percent} %</strong>
+          </div>
+        ))}
+      </div>
+      <div className="actions">
+        <button className="primary" onClick={onPractice}>Continuer la pratique</button>
+        <button onClick={onMistakes}>Revoir mes erreurs</button>
+      </div>
+    </section>
+  );
+}
+
+function MistakesPage({ mistakes, onClear }: { mistakes: MistakeRecord[]; onClear: () => void }) {
+  const [openEnglish, setOpenEnglish] = useState<Record<string, boolean>>({});
+  return (
+    <section className="page">
+      <div className="sectionHeader">
+        <div>
+          <p className="eyebrow">Mes erreurs</p>
+          <h1>{mistakes.length ? `${mistakes.length} question(s) à revoir` : "Aucune erreur enregistrée"}</h1>
+        </div>
+        {mistakes.length > 0 && <button onClick={onClear}>Effacer les erreurs</button>}
+      </div>
+      <div className="mistakeList">
+        {mistakes.map((mistake) => (
+          <article className="mistakeCard" key={mistake.id}>
+            <p className="context">{categoryLabels[mistake.category]} · vu {mistake.count} fois</p>
+            <h2>{mistake.sentence}</h2>
+            <p>Ta réponse: <strong>{mistake.selectedAnswer}</strong></p>
+            <p>Bonne réponse: <strong>{mistake.correctAnswer}</strong></p>
+            <p>{mistake.explanationFr}</p>
+            <p className="hint">{mistake.commonMistakeFr}</p>
+            <p className="example">Exemple: {mistake.extraExampleFr}</p>
+            {!openEnglish[mistake.id] ? (
+              <button onClick={() => setOpenEnglish({ ...openEnglish, [mistake.id]: true })}>
+                Je ne comprends pas, explique en anglais
+              </button>
+            ) : (
+              <p className="english">{mistake.explanationEn}</p>
+            )}
+          </article>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function RulesPage({ onStartChapter }: { onStartChapter: (chapter: Chapter) => void }) {
+  const firstChapterByCategory = useMemo(
+    () => Object.fromEntries(categories.map((category) => [category, chapters.find((chapter) => chapter.category === category)!])) as Record<CategoryId, Chapter>,
+    [],
+  );
+  const rules = [
+    ["definis", "Articles définis", "le, la, l’, les", "On les utilise pour parler d’une personne ou d’une chose précise."],
+    ["indefinis", "Articles indéfinis", "un, une, des", "On les utilise pour parler d’une personne ou d’une chose non précise."],
+    ["partitifs", "Articles partitifs", "du, de la, de l’, des, pas de", "On les utilise souvent avec une quantité non comptée."],
+    ["possessifs", "Possessifs", "mon, ma, mes, ton, ta, tes...", "Le déterminant change selon le nom qui suit."],
+    ["demonstratifs", "Démonstratifs", "ce, cet, cette, ces", "On les utilise pour montrer ou désigner quelque chose."],
+  ] as const;
+
+  return (
+    <section className="page">
+      <p className="eyebrow">Règles</p>
+      <h1>Rappels rapides</h1>
+      <div className="ruleGrid">
+        {rules.map(([category, title, forms, text]) => (
+          <article className="ruleCard" key={category}>
+            <h2>{title}</h2>
+            <p className="forms">{forms}</p>
+            <p>{text}</p>
+            <button onClick={() => onStartChapter(firstChapterByCategory[category])}>Pratiquer</button>
+          </article>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function SettingsPage({
+  settings,
+  onChange,
+  onReset,
+}: {
+  settings: Settings;
+  onChange: (settings: Settings) => void;
+  onReset: () => void;
+}) {
+  return (
+    <section className="page narrow">
+      <p className="eyebrow">Paramètres</p>
+      <h1>Préférences locales</h1>
+      <label className="toggle">
+        <span>Son des récompenses</span>
+        <input
+          type="checkbox"
+          checked={settings.soundEnabled}
+          onChange={(event) => onChange({ ...settings, soundEnabled: event.target.checked })}
+        />
+      </label>
+      <label className="toggle">
+        <span>Anglais seulement sur demande</span>
+        <input
+          type="checkbox"
+          checked={settings.showEnglishAfterClickOnly}
+          onChange={(event) => onChange({ ...settings, showEnglishAfterClickOnly: event.target.checked })}
+        />
+      </label>
+      <button className="danger" onClick={onReset}>Réinitialiser mes données</button>
+    </section>
+  );
+}
+
+function ProgressSummary({ progress, questionCount }: { progress: StoredProgress; questionCount: number }) {
+  const totalAttempts = Object.values(progress.categories).reduce((sum, category) => sum + category.attempts, 0);
+  const totalCorrect = Object.values(progress.categories).reduce((sum, category) => sum + category.correct, 0);
+  const percent = totalAttempts ? Math.round((totalCorrect / totalAttempts) * 100) : 0;
+  return (
+    <aside className="summary">
+      <h2>Progrès</h2>
+      <div className="bigNumber">{percent}%</div>
+      <p>{totalCorrect} bonnes réponses sur {totalAttempts} tentatives</p>
+      <p>{progress.completedChapters.length} chapitres complétés · {progress.completedTests} test(s)</p>
+      <p>{questionCount} questions dans la banque révisée</p>
+    </aside>
+  );
+}
+
+function RewardToast({ reward, soundEnabled }: { reward: Reward; soundEnabled: boolean }) {
+  useEffect(() => {
+    if (!soundEnabled) return;
+    const audio = new Audio("/reward.mp3");
+    audio.volume = 0.25;
+    audio.play().catch(() => undefined);
+  }, [soundEnabled]);
+
+  return (
+    <div className="reward" role="status">
+      <span aria-hidden="true">✦</span>
+      {reward.message}
+    </div>
+  );
+}
